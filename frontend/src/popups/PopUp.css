@@ -1,0 +1,44 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.redBg{
+	background-color: red!important;	
+	border-radius: 10px;
+}
+
+.greenBg{
+	background-color: greenyellow!important;
+}
+
+.whiteText{
+	color: white!important;
+}
+
+.blackText{
+	color: black!important;
+}
+
+.popRoot {
+	background-color: rgb(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 5;
+}
+
+.rectangle {
+	height: 40%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 2px solid #2d89de96;
+	background-color: white;
+	position: relative;
+}

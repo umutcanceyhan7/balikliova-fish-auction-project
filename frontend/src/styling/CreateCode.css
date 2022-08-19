@@ -1,0 +1,21 @@
+.icon1 {
+	color: rgb(69, 163, 163);
+}
+.icon:hover {
+	animation-name: iconTransform;
+	animation-timing-function: ease;
+}
+
+@keyframes iconTransform {
+	0% {
+		color: #256a98;
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(50%);
+	}
+	100% {
+		color: white;
+		transform: translateY(0);
+	}
+}

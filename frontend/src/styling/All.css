@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Montserrat&display=swap');
+
+/* Font families */
+.montserrat {
+    font-family: 'Montserrat', sans-serif!important;
+  }
+  .league-spartan {
+    font-family: 'League Spartan', sans-serif!important;
+  }
+
+/* Colors */
+
+.green{
+    color: forestgreen;
+}
+.grey{
+    color: grey;
+}
+
+.mid-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-part .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.auction-list-heading{
+    font-size: 1rem;
+}
+
+.auction-list-item{
+    font-size: 1rem;
+}

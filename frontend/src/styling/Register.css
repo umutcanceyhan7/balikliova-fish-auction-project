@@ -1,0 +1,117 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	background-color: #292a30;
+}
+.root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 0;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.box {
+	background-color: #fffdfd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 16px;
+}
+
+.form {
+	width: 70%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.checkbox {
+	width: 60%;
+	height: 8%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	padding: 1px;
+	align-items: center;
+	justify-content: center;
+}
+
+.checkbox-item {
+	width: 50%;
+	height: 100%;
+	float: "right";
+	border: 1px solid #2d89de;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.checkbox-item:hover {
+	background-color: #2d89de96;
+}
+
+.textInput {
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	width: 50%;
+	height: 10%;
+	padding: 1%;
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 19px;
+	transition: transform 125ms ease-in;
+}
+
+.textInput:focus {
+	outline: none;
+	box-shadow: 0 0 5px black;
+	transform: scale(1.05);
+}
+
+.button {
+	background-color: rgb(17, 93, 165);
+	color: white;
+	width: 45%;
+	height: 11%;
+	border-radius: 10px;
+	border-color: #2d89de;
+	font-size: 17px;
+	margin-bottom: 7%;
+	margin-top: 5%;
+	transition: transform 125ms ease-in;
+}
+
+.button:hover {
+	cursor: pointer;
+	box-shadow: 0 0 5px black;
+	transform: scale(1.1);
+}
+
+.link {
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	transition: transform 125ms ease-out;
+}
+
+.link:hover {
+	transform: scaleX(1.04);
+	text-decoration: underline;
+}

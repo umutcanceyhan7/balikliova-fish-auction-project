@@ -1,0 +1,13 @@
+.auction-list-container{
+    padding: 0.3rem;
+}
+
+.auction-customer-input{
+    border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	text-align: center;
+	transition: transform 125ms ease-in;
+	background-color: white;
+	border-color: #2179b0;
+}
